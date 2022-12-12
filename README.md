@@ -148,7 +148,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+ Iw’d like to give special thanks to Tom Occhino and Adam Wolff for their guidance and support over the years. Iam also thankful to all the volunteers who translated React into other languages.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
