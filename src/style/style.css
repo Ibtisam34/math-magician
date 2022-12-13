@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 20px auto;
+}
+
+.display {
+  background-color: #e25467;
+  margin-top: 60px;
+  color: rgb(77, 66, 66);
+  font-weight: bolder;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  font-size: 45px;
+}
+
+.button-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.display,
+.btn-group {
+  height: 60px;
+  width: 60%;
+  margin-left: 16%;
+}
+
+.btn-group .button {
+  width: 25%;
+  height: 100%;
+  background-color: #b37f53;
+  border: rgb(40, 32, 151) 1px solid;
+  color: #000;
+  font-size: 25px;
+}
