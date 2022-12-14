@@ -42,7 +42,7 @@ Database
 
 > Add a link to your deployed project.
 
-- [live version](https://ibtisam34.github.io/math-magician/dist)
+- [live version](https://ibtisam34.github.io/math-magician/)
 
 <!-- GETTING STARTED -->
 
