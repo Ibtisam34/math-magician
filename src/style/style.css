@@ -5,13 +5,15 @@
 }
 
 body {
-  background-color: grey;
+  margin: 0 auto;
+  width: 40%;
+  padding: 5rem;
 }
 
-.app {
+.calculator {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 490px;
   margin: 20px auto;
 }
 
@@ -27,22 +29,39 @@ body {
 }
 
 .button-panel {
-  display: flex;
-  flex-direction: column;
-}
-
-.display,
-.btn-group {
-  height: 60px;
-  width: 60%;
-  margin-left: 16%;
-}
-
-.btn-group .button {
-  width: 25%;
-  height: 100%;
+  width: 490px;
+  height: 400px;
   background-color: #b37f53;
-  border: rgb(40, 32, 151) 1px solid;
   color: #000;
+}
+
+button {
+  margin-top: 5%;
+  margin-left: 3%;
+  width: 30%;
+  background-color: black;
+  border: rgb(40, 32, 151) 1px solid;
+  color: white;
   font-size: 25px;
+  border-radius: 12px;
+  box-shadow: 1px 4px #678;
+}
+
+.grey {
+  margin-left: 36%;
+  background-color: #e25467;
+}
+
+.grey:active {
+  cursor: pointer;
+  background-color: aqua;
+  color: #000;
+}
+
+.black {
+  background-color: rgb(163, 68, 163);
+}
+
+.black:active {
+  background-color: #678;
 }
