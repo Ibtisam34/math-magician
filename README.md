@@ -19,130 +19,153 @@
 - [:pray: Acknowledgements](#acknowledgements)
 - [:question: FAQ](#faq)
 - [:memo: License](#license)
-📖 [your_project_name]
-Describe your project in 1 or 2 sentences.
+<!-- PROJECT DESCRIPTION -->
 
-[your_project__name] is a...
+# 📖 [ group-capstone] 
 
-🛠 Built With
-Tech Stack
-LAMP Stack (Linux, Apache, MySQL, PHP)
+> This project is the second capstone project from Microverse. we created webapp by following all the requirements needed and choose our favorite  Api , tvmaze API to get info about movies, and 'involvment' API to Send & get likes and comments.
 
-MEAN Stack (MongoDB, Express.js, Angular.js, Node.js)
+**[ group-capstone]** 
 
-MERN Stack (MongoDB, Express.js, React.js, Node.js)
+## 🛠 Built With 
+HTML/CSS
+JavaScript(ES6)
+Webpack ✈️
+tvmaze API and Involvment API
 
-Client
-Server
-Database
-Key Features
-Describe between 1-3 key features of the application.
 
-[key_feature_1]
-[key_feature_2]
-[key_feature_3]
-(back to top)
 
-🚀 Live Demo
-Add a link to your deployed project.
+## 🚀 Live Demo <a name="live-demo"></a>
 
-Live Demo Link
-(back to top)
+> Add a link to your deployed project.
 
-💻 Getting Started
-How a you could make use of this project.
+- [Live Demo Link](https://ibtisam34.github.io/group-capstone/dist/)
+
+- > a link to our Kanban board  https://github.com/Ibtisam34/kanban-board/projects/1
+- >Approved issue by microverse reviewers https://github.com/Ibtisam34/kanban-board/issues/21
+> @ibtisam34 proudest reviewed pull-request https://github.com/Ibtisam34/group-capstone/pull/3
+> @jodavid444 reviewed pull-request https://github.com/Ibtisam34/group-capstone/pull/1
+> our extra reviewed pull-request by microverse reviewers https://github.com/Ibtisam34/group-capstone/pull/6
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
+$ git clone https://github.com/Ibtisam34/group-capstone.git $ 
+cd group-capstone
+$ npm i
+$npm start 
 
-Prerequisites
-In order to run this project you need these, incase they are not already setup, Kindly Read Prerequisites.
+### Prerequisites
 
-Setup
+In order to run this project you need:
+$ npm start
+
+### Setup
+
 Clone this repository to your desired folder:
+$ git clone https://github.com/Ibtisam34/group-capstone.git
 
-  mkdir my-folder
-  cd my-folder
-  git clone git@github.com:SSEKPIUS/Microverse-WebPack-Template.git  
-Install
+
+### Install
+
 Install this project with:
+$npm i
 
-  npm install -force
-Usage
+### Usage
+
 To run the project, execute the following command:
 
-Example command:
+$npm start
 
-  npm run start
-Run tests
+### Run tests
+
 To run tests, run the following command:
 
-Example command:
+#npm test
 
-  npm test
-Deployment
+### Deployment
+
 You can deploy this project using:
 
-(back to top)
+  npm run dev
 
-👥 Authors
-Mention all of the collaborators of this project.
+<!-- AUTHORS -->
 
-👤 Author 1
+## 👥 Authors <a name="authors"></a>
 
-Ssekweyama Pius
-GitHub: @githubhandle
-Twitter: @twitterhandle
-LinkedIn: LinkedIn
-👤 *Author 2
+> Mention all of the collaborators of this project.
 
-(back to top)
+👤 **Riyana**
 
-🔭 Future Features
-Describe 1 - 3 features you will add to the project.
+- GitHub: [@ibtisam34](https://github.com/ibtisam34)
+- Twitter: [@Queenjin2](https://twitter.com/Queenjin2)
 
- [new_feature_1]
- [new_feature_2]
- [new_feature_3]
-(back to top)
 
-🤝 Contributing
+👤 **Joseph David**
+
+- GitHub: [@jodavid444](https://github.com/jodavid444)
+- Twitter: [@jodavid444dave](https://twitter.com/jodavid444dave)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/joseph-david-01a8a5243)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+  I will add mobile version since I have desktop version of the app
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
+Feel free to check the [issues page](../../issues/).
 
-(back to top)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-⭐️ Show your support
-We encourage you to support this project
+<!-- SUPPORT -->
 
-If you like this project, kindly donate a token at Paypal
+## ⭐️ Show your support <a name="support"></a>
 
-(back to top)
+> Write a message to encourage readers to support your project
 
-🙏 Acknowledgments
-Credit to everyone who inspired this codebase.
+If you like this project...
 
-I would like to thank microverse student team for the resorces availed.
+<!-- ACKNOWLEDGEMENTS -->
 
-(back to top)
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-❓ FAQ
-Questions new developers would ask when they decide to use this project.
+> Give credit to everyone who inspired your codebase.
 
-What is front-end, HTML, CSS and JavaScript
+I would like to thank...
 
-The front end refers to the parts of the application that users (also known as "clients") interact with directly
-As a front-end dev, you'll implement these tasks primarily using HTML to define the structure of web pages, CSS to add styling, and JavaScript to add interactivity.
-What is back-end and Full stack
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-The back end refers to the parts of the application that run behind the scenes and aren't presented directly to the user/client.
-The back end typically includes a web server which handles HTTP connections received from the front-end client (usually a web browser)
-Full stack simply includes both the front end AND back end!
-(back to top)
+<!-- FAQ (optional) -->
 
-📝 License
-This project is MIT licensed.
+## ❓ FAQ <a name="faq"></a>
 
-NOTE: we recommend using the MIT license - you can set it up quickly by using templates available on GitHub. You can also use any other license if you wish.
+> Add at least 2 questions new developers would ask when they decide to use your project.
 
-(back to top)
+- **[how do I get the dependencies of this project]**
+
+  - [ after you clone the project plz run $npm i ]
+
+- **[Can I use this README.md]**
+
+  - [yes]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
