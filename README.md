@@ -1,5 +1,5 @@
 logo
-Microverse README Template
+Microverse README Template.
 📗 Table of Contents
 📗 Table of Contents
 📖 [math-magicians]
