@@ -42,7 +42,7 @@ Database
 
 > Add a link to your deployed project.
 
-- [live version](https://ibtisam34.github.io/math-magician/)
+- [live version](https://riyana-calculator.netlify.app/)
 
 <!-- GETTING STARTED -->
 
