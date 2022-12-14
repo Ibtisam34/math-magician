@@ -5,13 +5,15 @@
 }
 
 body {
-  background-color: grey;
+  margin: 0 auto;
+  width: 40%;
+  padding: 5rem;
 }
 
 .calculator {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 490px;
   margin: 20px auto;
 }
 
@@ -19,47 +21,47 @@ body {
   background-color: #e25467;
   margin-top: 60px;
   color: rgb(77, 66, 66);
+  font-weight: bolder;
   justify-content: flex-end;
   display: flex;
   align-items: center;
   font-size: 45px;
-  user-select: none;
-  cursor: pointer;
-  font-weight: 400;
 }
 
 .button-panel {
-  display: flex;
-  flex-direction: column;
+  width: 490px;
+  height: 400px;
+  background-color: #b37f53;
+  color: #000;
 }
 
-.display,
-.btn-group {
-  height: 60px;
-  width: 130%;
-  border-radius: 10px;
-}
-
-.btn-group .button {
-  width: 25%;
-  height: 100%;
+button {
+  margin-top: 5%;
+  margin-left: 3%;
+  width: 30%;
+  background-color: black;
   border: rgb(40, 32, 151) 1px solid;
-  color: rgb(31, 24, 24);
+  color: white;
   font-size: 25px;
-  border-radius: 10px;
-  background-color: rgb(102, 116, 116);
-  box-shadow:
-    -5px -5px 15px rgba(0, 0, 0, 0.1),
-    10px 5px 10px rgba(0, 0, 0, 0.15);
-  border-left: 1px solid #0004;
-  border-bottom: 1px solid #0004;
-  border-top: 1px solid #0009;
+  border-radius: 12px;
+  box-shadow: 1px 4px #678;
 }
 
-.btn-group:active {
-  background-color: yellow;
+.grey {
+  margin-left: 36%;
+  background-color: #e25467;
 }
 
-.btn-group .button:active {
+.grey:active {
+  cursor: pointer;
   background-color: aqua;
+  color: #000;
+}
+
+.black {
+  background-color: rgb(163, 68, 163);
+}
+
+.black:active {
+  background-color: #678;
 }

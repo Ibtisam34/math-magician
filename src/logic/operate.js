@@ -1,44 +1,30 @@
-/* eslint-disable import/extensions */
 import Big from 'big.js';
 
-const operate = (numberOne, numberTwo, operation) => {
-  let a;
-  let b;
-
-  if (numberOne) {
-    a = new Big(numberOne);
-  }
-
-  if (numberTwo) {
-    b = new Big(numberTwo);
-  }
-
-  if (operation === '-') {
-    return a.minus(b).valueOf();
-  }
-
+export default function operate(numberOne, numberTwo, operation) {
+  const one = Big(numberOne);
+  const two = Big(numberTwo);
   if (operation === '+') {
-    return a.plus(b).valueOf();
+    return one.plus(two).toString();
   }
-
-  if (operation === 'X') {
-    return a.mul(b).valueOf();
+  if (operation === '-') {
+    return one.minus(two).toString();
   }
-
-  if (operation === '÷' && numberTwo === '0') {
-    return 'NaN';
+  if (operation === 'x') {
+    return one.times(two).toString();
   }
-
+  if (operation === '÷') {
+    try {
+      return one.div(two).toString();
+    } catch (err) {
+      return "Can't divide by 0.";
+    }
+  }
   if (operation === '%') {
-    if (numberOne) {
-      return a.mul(0.01).valueOf();
-    }
-    if (numberTwo) {
-      return b.mul(0.01).valueOf();
+    try {
+      return one.mod(two).toString();
+    } catch (err) {
+      return "Can't find modulo as can't divide by 0.";
     }
   }
-
-  return a.div(b).valueOf();
-};
-
-export default operate;
+  throw Error(`Unknown operation '${operation}'`);
+}

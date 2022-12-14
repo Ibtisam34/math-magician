@@ -1,92 +1,133 @@
-/* eslint-disable no-restricted-globals */
 import operate from './operate';
 
-const calculate = (calculator, buttonName) => {
-  const operations = ['+', '-', 'X', '÷'];
+function isNumber(item) {
+  return !!item.match(/[0-9]+/);
+}
 
-  let { total, next, operation } = calculator;
-
-  if (buttonName === '+/-') {
-    if (next) {
-      next = (+next * -1).toString();
-    }
-    if (total && total !== 'NaN' && !next) {
-      total = (+total * -1).toString();
-    }
+/**
+ * Given a button name and a calculator data object, return an updated
+ * calculator data object.
+ *
+ * Calculator data object contains:
+ *   total:s      the running total
+ *   next:String       the next number to be operated on with the total
+ *   operation:String  +, -, etc.
+ */
+export default function calculate(obj, buttonName) {
+  if (buttonName === 'AC') {
+    return {
+      total: null,
+      next: null,
+      operation: null,
+    };
   }
 
-  if (buttonName === '%') {
-    if (next) {
-      next = operate(null, next, buttonName);
-    } else if (!isNaN(total)) {
-      total = operate(null, next, buttonName);
+  if (isNumber(buttonName)) {
+    if (buttonName === '0' && obj.next === '0') {
+      return {};
     }
-  }
-
-  if (buttonName === '=') {
-    if (total === 'NaN' && next && operation) {
-      return { total: 'NaN', next: null, operation: null };
+    // If there is an operation, update next
+    if (obj.operation) {
+      if (obj.next && obj.next !== '0') {
+        return { ...obj, next: obj.next + buttonName };
+      }
+      return { ...obj, next: buttonName };
     }
-
-    if (next) {
-      total = operate(total, next, operation);
-      next = null;
-      operation = null;
+    // If there is no operation, update next and clear the value
+    if (obj.next && obj.next !== '0') {
+      return {
+        next: obj.next + buttonName,
+        total: null,
+      };
     }
-  }
-
-  if (operations.includes(buttonName)) {
-    if (total === 'NaN' && next && operation) {
-      return { total: 'NaN', next: null, operation: buttonName };
-    }
-
-    if (total && next && operation) {
-      total = operate(total, next, buttonName);
-      next = null;
-    }
-
-    operation = buttonName;
+    return {
+      next: buttonName,
+      total: null,
+    };
   }
 
   if (buttonName === '.') {
-    if (total && !isNaN(total) && !total.split('').includes('.')) {
-      total = `${total}.`;
+    if (obj.next) {
+      if (obj.next.includes('.')) {
+        return { ...obj };
+      }
+      return { ...obj, next: `${obj.next}.` };
     }
-    if (next && !next.split('').includes('.')) {
-      next = `${next}.`;
+    if (obj.operation) {
+      return { ...obj, next: '0.' };
     }
-    if (!next && operation && total !== 'NaN') {
-      next = '0.';
+    if (obj.total) {
+      if (obj.total.includes('.')) {
+        return {};
+      }
+      return { ...obj, next: `${obj.total}.` };
     }
+    return { ...obj, next: '0.' };
   }
 
-  if (buttonName === 'AC') {
-    total = '0';
-    next = null;
-    operation = null;
+  if (buttonName === '=') {
+    if (obj.next && obj.operation) {
+      return {
+        total: operate(obj.total, obj.next, obj.operation),
+        next: null,
+        operation: null,
+      };
+    }
+    // '=' with no operation, nothing to do
+    return {};
   }
 
-  if (!isNaN(Number(buttonName)) && (total !== '0' && total !== 'NaN') && !operation) {
-    total += buttonName;
+  if (buttonName === '+/-') {
+    if (obj.next) {
+      return { ...obj, next: (-1 * parseFloat(obj.next)).toString() };
+    }
+    if (obj.total) {
+      return { ...obj, total: (-1 * parseFloat(obj.total)).toString() };
+    }
+    return {};
   }
 
-  if (!isNaN(Number(buttonName)) && total === '0' && !operation) {
-    total = buttonName;
+  // Button must be an operation
+
+  // When the user presses an operation button without having entered
+  // a number first, do nothing.
+  // if (!obj.next && !obj.total) {
+  //   return {};
+  // }
+
+  // User pressed an operation after pressing '='
+  if (!obj.next && obj.total && !obj.operation) {
+    return { ...obj, operation: buttonName };
   }
 
-  if (!isNaN(Number(buttonName)) && operation && next !== null) {
-    next += buttonName;
+  // User pressed an operation button and there is an existing operation
+  if (obj.operation) {
+    if (obj.total && !obj.next) {
+      return { ...obj, operation: buttonName };
+    }
+
+    if (!obj.total) {
+      return { total: 0, operation: buttonName };
+    }
+
+    return {
+      total: operate(obj.total, obj.next, obj.operation),
+      next: null,
+      operation: buttonName,
+    };
   }
 
-  if (!isNaN(Number(buttonName)) && operation && next === null) {
-    next = buttonName;
+  // no operation yet, but the user typed one
+
+  // The user hasn't typed a number yet, just save the operation
+  if (!obj.next) {
+    return { operation: buttonName };
   }
 
-  if (total === 'NaN' && !isNaN(buttonName) && !operation) {
-    total = buttonName;
-  }
-
-  return { total, next, operation };
-};
-
-export default calculate;
+  // save the operation and shift 'next' into 'total'
+  return {
+    total: obj.next,
+    next: null,
+    operation: buttonName,
+  };
+}
