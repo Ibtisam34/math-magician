@@ -1,26 +1,25 @@
-logo
-Microverse README Template.
-📗 Table of Contents
-📗 Table of Contents
-📖 [math-magicians]
-🛠 Built With
-Tech Stack
-Key Features
-🚀 Live Demo
-💻 Getting Started
-Prerequisites
-Setup
-Install
-Usage
-Run tests
-Deployment
-👥 Authors
-🔭 Future Features
-🤝 Contributing
-⭐️ Show your support
-🙏 Acknowledgments
-📝 License
-📖 [math-magician]
+<!-- TABLE OF CONTENTS -->
+# :green_book: Table of Contents
+- [:book: About the Project](#about-project)
+  - [:hammer_and_spanner: Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [:rocket: Live Demo](#live-demo)
+- [:computer: Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [:silhouettes: Authors](#authors)
+- [:telescope: Future Features](#future-features)
+- [:handshake: Contributing](#contributing)
+- [:star:️ Show your support](#support)
+- [:pray: Acknowledgements](#acknowledgements)
+- [:question: FAQ](#faq)
+- [:memo: License](#license)
+<!-- PROJECT DESCRIPTION -->
 Describe your project in 1 or 2 sentences.
 
 [math-magician] is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
