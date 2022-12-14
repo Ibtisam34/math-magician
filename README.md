@@ -27,11 +27,11 @@
 
 **[ group-capstone]** 
 
-## 🛠 Built With 
-HTML/CSS
-JavaScript(ES6)
-Webpack ✈️
-tvmaze API and Involvment API
+🛠 Built With
+Tech Stack
+Client
+Server
+Database
 
 
 
