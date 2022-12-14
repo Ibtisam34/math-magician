@@ -21,11 +21,14 @@
 - [:memo: License](#license)
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [ group-capstone] 
+# 📖 [math-magician] 
 
-> This project is the second capstone project from Microverse. we created webapp by following all the requirements needed and choose our favorite  Api , tvmaze API to get info about movies, and 'involvment' API to Send & get likes and comments.
+> is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
-**[ group-capstone]** 
+. Make simple calculations.
+. Read a random math-related quote.
+
+**[math-magician]** 
 
 🛠 Built With
 Tech Stack
@@ -39,13 +42,8 @@ Database
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://ibtisam34.github.io/group-capstone/dist/)
+- []dist/)
 
-- > a link to our Kanban board  https://github.com/Ibtisam34/kanban-board/projects/1
-- >Approved issue by microverse reviewers https://github.com/Ibtisam34/kanban-board/issues/21
-> @ibtisam34 proudest reviewed pull-request https://github.com/Ibtisam34/group-capstone/pull/3
-> @jodavid444 reviewed pull-request https://github.com/Ibtisam34/group-capstone/pull/1
-> our extra reviewed pull-request by microverse reviewers https://github.com/Ibtisam34/group-capstone/pull/6
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -53,7 +51,7 @@ Database
 > Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
-$ git clone https://github.com/Ibtisam34/group-capstone.git $ 
+$ git clone https://github.com/Ibtisam34/math-magician.git $ 
 cd group-capstone
 $ npm i
 $npm start 
@@ -66,7 +64,7 @@ $ npm start
 ### Setup
 
 Clone this repository to your desired folder:
-$ git clone https://github.com/Ibtisam34/group-capstone.git
+$ git clone https://github.com/Ibtisam34/math-magician.git
 
 
 ### Install
@@ -103,19 +101,12 @@ You can deploy this project using:
 - GitHub: [@ibtisam34](https://github.com/ibtisam34)
 - Twitter: [@Queenjin2](https://twitter.com/Queenjin2)
 
-
-👤 **Joseph David**
-
-- GitHub: [@jodavid444](https://github.com/jodavid444)
-- Twitter: [@jodavid444dave](https://twitter.com/jodavid444dave)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/joseph-david-01a8a5243)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-  I will add mobile version since I have desktop version of the app
+  I will add hookes and change class component to functional component
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
