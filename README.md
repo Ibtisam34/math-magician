@@ -1,122 +1,162 @@
-logo
-Microverse README Template.
-📗 Table of Contents
-📗 Table of Contents
-📖 [math-magicians]
-🛠 Built With
-Tech Stack
-Key Features
-🚀 Live Demo
-💻 Getting Started
-Prerequisites
-Setup
-Install
-Usage
-Run tests
-Deployment
-👥 Authors
-🔭 Future Features
-🤝 Contributing
-⭐️ Show your support
-🙏 Acknowledgments
-📝 License
-📖 [math-magician]
-Describe your project in 1 or 2 sentences.
+<!-- TABLE OF CONTENTS -->
+# :green_book: Table of Contents
+- [:book: About the Project](#about-project)
+  - [:hammer_and_spanner: Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [:rocket: Live Demo](#live-demo)
+- [:computer: Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [:silhouettes: Authors](#authors)
+- [:telescope: Future Features](#future-features)
+- [:handshake: Contributing](#contributing)
+- [:star:️ Show your support](#support)
+- [:pray: Acknowledgements](#acknowledgements)
+- [:question: FAQ](#faq)
+- [:memo: License](#license)
+<!-- PROJECT DESCRIPTION -->
 
-[math-magician] is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+# 📖 [math-magician] 
 
-Make simple calculations.
-Read a random math-related quote.
+> is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+
+. Make simple calculations.
+. Read a random math-related quote.
+
+**[math-magician]** 
+
 🛠 Built With
 Tech Stack
 Client
-React.js
 Server
-Express.js
 Database
-Key Features
-Describe between 1-3 key features of the application.
 
-[key_feature_1]
-[key_feature_2]
-[key_feature_3]
-(back to top)
 
-🚀 Live Demo
-Add a link to your deployed project.
 
-Live Demo Link
-(back to top)
+## 🚀 Live Demo <a name="live-demo"></a>
 
-💻 Getting Started
-Describe how a new developer could make use of your project.
+> Add a link to your deployed project.
+
+- []dist/)
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
- $ git clone https://github.com/Ibtisam34/math-magician.git 
- $cd math-magician 
- $ npm i
- $npm start
-Prerequisites
+$ git clone https://github.com/Ibtisam34/math-magician.git $ 
+cd group-capstone
+$ npm i
+$npm start 
+
+### Prerequisites
+
 In order to run this project you need:
- $ npm start
-Setup
+$ npm start
+
+### Setup
+
 Clone this repository to your desired folder:
- $ git clone https://github.com/Ibtisam34/math-magician.git
-Install
+$ git clone https://github.com/Ibtisam34/math-magician.git
+
+
+### Install
+
 Install this project with:
-npm i
-Usage
+$npm i
+
+### Usage
+
 To run the project, execute the following command:
+
 $npm start
-Run tests
+
+### Run tests
+
 To run tests, run the following command:
-$npm test
-Deployment
+
+#npm test
+
+### Deployment
+
 You can deploy this project using:
-$npm run dev
-(back to top)
 
-👥 Authors
-Mention all of the collaborators of this project.
+  npm run dev
 
-👤 Author1
+<!-- AUTHORS -->
 
-GitHub: https://github.com/ibtisam34
-Twitter:https://twitter.com/Queenjin2
-(back to top)
+## 👥 Authors <a name="authors"></a>
 
-🔭 Future Features
-Describe 1 - 3 features you will add to the project.
+> Mention all of the collaborators of this project.
 
- [I will add hooks]
- [I will use function component instead of class component]
- [I will deploy it]
-(back to top)
+👤 **Riyana**
 
-🤝 Contributing
+- GitHub: [@ibtisam34](https://github.com/ibtisam34)
+- Twitter: [@Queenjin2](https://twitter.com/Queenjin2)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+  I will add hookes and change class component to functional component
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
+Feel free to check the [issues page](../../issues/).
 
-(back to top)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-⭐️ Show your support
-Write a message to encourage readers to support your project
+<!-- SUPPORT -->
 
-If you like this project plz give me start thanxs!
+## ⭐️ Show your support <a name="support"></a>
 
-(back to top)
+> Write a message to encourage readers to support your project
 
-🙏 Acknowledgments
-Give credit to everyone who inspired your codebase.
+If you like this project...
 
-I would like to thank to Tom Occhino and Adam Wolff for their guidance and support over the years. Iam also thankful to all the volunteers who translated React into other languages.
+<!-- ACKNOWLEDGEMENTS -->
 
-(back to top)
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-(back to top)
+> Give credit to everyone who inspired your codebase.
 
-📝 License
-This project is MIT licensed.
+I would like to thank...
 
-(back to top)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[how do I get the dependencies of this project]**
+
+  - [ after you clone the project plz run $npm i ]
+
+- **[Can I use this README.md]**
+
+  - [yes]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
