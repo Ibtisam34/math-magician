@@ -58,7 +58,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 > Add a link to your deployed project.
 
-- [Live Demo Link]()
+- []()
 
  
 <!-- GETTING STARTED -->
