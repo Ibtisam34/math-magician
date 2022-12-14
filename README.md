@@ -1,179 +1,118 @@
-# math-magician
+logo
+Microverse README Template
+📗 Table of Contents
+📗 Table of Contents
+📖 [math-magicians]
+🛠 Built With
+Tech Stack
+Key Features
+🚀 Live Demo
+💻 Getting Started
+Prerequisites
+Setup
+Install
+Usage
+Run tests
+Deployment
+👥 Authors
+🔭 Future Features
+🤝 Contributing
+⭐️ Show your support
+🙏 Acknowledgments
+📝 License
+📖 [math-magicians]
+Describe your project in 1 or 2 sentences.
 
-# 📗 Table of Contents
+[math-magicians] is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
+Make simple calculations.
+Read a random math-related quote.
+🛠 Built With
+Tech Stack
+Client
+Server
+Database
+Key Features
+Describe between 1-3 key features of the application.
 
-<!-- PROJECT DESCRIPTION -->
+[key_feature_1]
+[key_feature_2]
+[key_feature_3]
+(back to top)
 
-# 📖 [math-magician] 
+🚀 Live Demo
+Add a link to your deployed project.
 
-> This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Demo Link
+(back to top)
 
-**[math-magician ]** 
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- []()
-
- 
-<!-- GETTING STARTED -->
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
+💻 Getting Started
+Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
-$ git clone https://github.com/Ibtisam34/math-magician.git $ 
-cd math-magician
-$ npm i
-$npm start 
 
-### Prerequisites
-
+Prerequisites
 In order to run this project you need:
-$ npm start
 
-### Setup
-
+Setup
 Clone this repository to your desired folder:
-$ git clone https://github.com/Ibtisam34/math-magician.git
 
-
-### Install
-
+Install
 Install this project with:
-$npm i
 
-### Usage
-
+Usage
 To run the project, execute the following command:
 
-$npm start
-
-### Run tests
-
+Run tests
 To run tests, run the following command:
 
-#npm test
-
-### Deployment
-
+Deployment
 You can deploy this project using:
 
-  npm run dev
+(back to top)
 
-<!-- AUTHORS -->
+👥 Authors
+Mention all of the collaborators of this project.
 
-## 👥 Authors <a name="authors"></a>
+👤 Author1
 
-> Mention all of the collaborators of this project.
+GitHub: @ginabeki
+Twitter: @gina
+LinkedIn: Gina Beki
+(back to top)
 
-👤 **Riyana**
+🔭 Future Features
+Describe 1 - 3 features you will add to the project.
 
-- GitHub: [@ibtisam34](https://github.com/ibtisam34)
-- Twitter: [@Queenjin2](https://twitter.com/Queenjin2)
+ [new_feature_1]
+ [new_feature_2]
+ [new_feature_3]
+(back to top)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-  I will continue building the remaining react apps
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
+🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issues page.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+(back to top)
 
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
+⭐️ Show your support
+Write a message to encourage readers to support your project
 
 If you like this project...
 
-<!-- ACKNOWLEDGEMENTS -->
+(back to top)
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+🙏 Acknowledgments
+Give credit to everyone who inspired your codebase.
 
-> Give credit to everyone who inspired your codebase.
+I would like to thank...
 
- Iw’d like to give special thanks to Tom Occhino and Adam Wolff for their guidance and support over the years. Iam also thankful to all the volunteers who translated React into other languages.
+(back to top)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+(back to top)
 
-<!-- FAQ (optional) -->
+📝 License
+This project is MIT licensed.
 
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[how do I get the dependencies of this project]**
-
-  - [ after you clone the project plz run $npm i ]
-
-- **[Can I use this README.md]**
-
-  - [yes]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-
+(back to top)
