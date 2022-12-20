@@ -1,0 +1,180 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+:root {
+  /* Base font size */
+  font-size: 10px;
+
+  /* Heading height variable */
+  --heading-height: 30em;
+}
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  min-height: 100vh;
+  background-color: #101010;
+}
+
+.calculator {
+  background-color: #e25467;
+  display: flex;
+  flex-direction: column;
+  width: 490px;
+  margin: 20px auto;
+}
+
+.display {
+  background-color: black;
+  margin-top: 10px;
+  color: rgb(77, 66, 66);
+  font-weight: bolder;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  font-size: 45px;
+}
+
+.button-panel {
+  width: 490px;
+  height: 420px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSELkA0PlOx4EykDK0-nsbbh4gaG4YX46JM_G-e8cs2BFulCXa0Kqy7PILzHRip35jQIOo&usqp=CAU);
+}
+
+.display,
+.button-panel {
+  border-radius: 60px;
+}
+
+button {
+  margin-top: 5%;
+  margin-left: 3%;
+  width: 30%;
+  background-color: rgb(104, 117, 117);
+  border: rgb(92, 69, 78) 1px solid;
+  color: white;
+  font-size: 25px;
+  border-radius: 12px;
+}
+
+button:active {
+  background-color: yellowgreen;
+}
+
+.grey {
+  margin-left: 36%;
+  background-color: #e25467;
+}
+
+.grey:active {
+  cursor: pointer;
+  background-color: aqua;
+  color: #000;
+}
+
+.black {
+  background-color: rgb(163, 68, 163);
+}
+
+.black:active {
+  background-color: #678;
+}
+
+.navbar--Container {
+  background-image: url(https://images.hdqwalls.com/wallpapers/red-glows-4k-6q.jpg);
+  display: flex;
+  font-weight: 700;
+  padding: 10rem 0 0 4.5rem;
+}
+
+.navbar--heading h1 {
+  float: left;
+  font-size: calc(2em + 1vw);
+  letter-spacing: 0.01em;
+  text-shadow: 0.022em 0.022em 0.022em #111;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.navbar--heading h1:hover {
+  background-color: #000;
+  color: red;
+}
+
+.nav--List {
+  display: flex;
+  list-style: none;
+  margin-left: 60%;
+}
+
+.navLink {
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
+  color: rgb(156, 34, 34);
+}
+
+.navLink:hover {
+  background-color: white;
+  color: #000;
+  border: none;
+  border-radius: 45px;
+}
+
+.home--page {
+  color: white;
+}
+
+.home--page-header {
+  color: tomato;
+  font-size: 40px;
+  margin-left: 40px;
+}
+
+.home--page-header:hover {
+  display: none;
+}
+
+.home--paragraph {
+  border-right: groove;
+  border-left: dashed;
+  border-bottom: solid;
+  border-top: groove;
+  border-right-color: red;
+  border-left-color: magenta;
+  border-top-color: burlywood;
+  border-bottom-color: navajowhite;
+  border-width: 2px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.home--paragraph:hover {
+  text-align: center;
+  font-size: 30px;
+}
+
+.quote--pages-container {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  margin: 0;
+  padding-top: 6%;
+}
+
+@media only screen and (max-width: 600px) {
+  .navLink {
+    display: none;
+  }
+
+  .navbar--Container {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIyzzjt4Gw7X7z_MuSDjsvuqY8r37pGymjoTDvQ0JMUqJCkORKclgntk82jX72chY0ul8&usqp=CAU);
+    padding: 5px 4px 2px;
+  }
+
+  .navbar--heading h1 {
+    color: grey;
+  }
+
+  .calculator {
+    margin-top: 10%;
+  }
+}
