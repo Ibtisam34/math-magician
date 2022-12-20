@@ -1,16 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
-:root {
-	/* Base font size */
-	font-size: 10px;
 
-	/* Heading height variable*/
-	--heading-height: 30em;
+:root {
+  /* Base font size */
+  font-size: 10px;
+
+  /* Heading height variable */
+  --heading-height: 30em;
 }
 
 body {
   font-family: "Roboto", Arial, sans-serif;
-	min-height: 100vh;
-	background-color: #101010;
+  min-height: 100vh;
+  background-color: #101010;
 }
 
 .calculator {
@@ -38,7 +39,8 @@ body {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSELkA0PlOx4EykDK0-nsbbh4gaG4YX46JM_G-e8cs2BFulCXa0Kqy7PILzHRip35jQIOo&usqp=CAU);
 }
 
- .display,.button-panel{
+.display,
+.button-panel {
   border-radius: 60px;
 }
 
@@ -51,13 +53,12 @@ button {
   color: white;
   font-size: 25px;
   border-radius: 12px;
-  box-shadow: 1px 5px rgb(104, 29, 29);
 }
 
 button:active {
   background-color: yellowgreen;
-  box-shadow: white;
 }
+
 .grey {
   margin-left: 36%;
   background-color: #e25467;
@@ -86,16 +87,16 @@ button:active {
 
 .navbar--heading h1 {
   float: left;
-  font-size: calc(2.0em + 1.0vw);
-	letter-spacing: .01em;
-	text-shadow: .022em .022em .022em #111;
-	color: #fff;
+  font-size: calc(2em + 1vw);
+  letter-spacing: 0.01em;
+  text-shadow: 0.022em 0.022em 0.022em #111;
+  color: #fff;
   margin-top: 5px;
 }
 
 .navbar--heading h1:hover {
   background-color: #000;
-  color:red;
+  color: red;
 }
 
 .nav--List {
@@ -104,10 +105,10 @@ button:active {
   margin-left: 60%;
 }
 
-.navLink  {
-  text-decoration:none;
-  font-size:18px;
-  padding-right:15px;
+.navLink {
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
   color: rgb(156, 34, 34);
 }
 
@@ -134,11 +135,11 @@ button:active {
 
 .home--paragraph {
   border-right: groove;
-  border-left: dashed; 
+  border-left: dashed;
   border-bottom: solid;
   border-top: groove;
   border-right-color: red;
-  border-left-color:magenta;
+  border-left-color: magenta;
   border-top-color: burlywood;
   border-bottom-color: navajowhite;
   border-width: 2px;
@@ -155,23 +156,25 @@ button:active {
   text-align: center;
   font-size: 30px;
   color: white;
-  margin:0;
+  margin: 0;
   padding-top: 6%;
 }
 
 @media only screen and (max-width: 600px) {
-  .navLink  {
-   display: none;
+  .navLink {
+    display: none;
   }
+
   .navbar--Container {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIyzzjt4Gw7X7z_MuSDjsvuqY8r37pGymjoTDvQ0JMUqJCkORKclgntk82jX72chY0ul8&usqp=CAU);
     padding: 5px 4px 2px;
   }
+
   .navbar--heading h1 {
-     color: grey;
+    color: grey;
   }
+
   .calculator {
     margin-top: 10%;
   }
- 
 }
