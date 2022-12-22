@@ -159,22 +159,3 @@ button:active {
   margin: 0;
   padding-top: 6%;
 }
-
-@media only screen and (max-width: 600px) {
-  .navLink {
-    display: none;
-  }
-
-  .navbar--Container {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIyzzjt4Gw7X7z_MuSDjsvuqY8r37pGymjoTDvQ0JMUqJCkORKclgntk82jX72chY0ul8&usqp=CAU);
-    padding: 5px 4px 2px;
-  }
-
-  .navbar--heading h1 {
-    color: grey;
-  }
-
-  .calculator {
-    margin-top: 10%;
-  }
-}
