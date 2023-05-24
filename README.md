@@ -52,14 +52,6 @@ Database
 
 To get a local copy up and running, follow these steps.
 $ git clone https://github.com/Ibtisam34/math-magician.git $ 
-cd group-capstone
-$ npm i
-$npm start 
-
-### Prerequisites
-
-In order to run this project you need:
-$ npm start
 
 ### Setup
 
@@ -72,23 +64,6 @@ $ git clone https://github.com/Ibtisam34/math-magician.git
 Install this project with:
 $npm i
 
-### Usage
-
-To run the project, execute the following command:
-
-$npm start
-
-### Run tests
-
-To run tests, run the following command:
-
-#npm test
-
-### Deployment
-
-You can deploy this project using:
-
-  npm run dev
 
 <!-- AUTHORS -->
 
